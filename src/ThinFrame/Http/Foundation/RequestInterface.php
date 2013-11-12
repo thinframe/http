@@ -11,7 +11,6 @@ namespace ThinFrame\Http\Foundation;
 
 use PhpCollection\Map;
 use ThinFrame\Http\Constants\Method;
-use ThinFrame\Http\Constants\StatusCode;
 
 /**
  * Class RequestInterface
@@ -21,13 +20,6 @@ use ThinFrame\Http\Constants\StatusCode;
  */
 interface RequestInterface
 {
-    /**
-     * Get status code
-     *
-     * @return StatusCode
-     */
-    public function getStatusCode();
-
     /**
      * Get headers
      *
