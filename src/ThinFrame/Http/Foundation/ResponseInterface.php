@@ -21,15 +21,6 @@ use ThinFrame\Http\Constants\StatusCode;
 interface ResponseInterface
 {
     /**
-     * Set response content
-     *
-     * @param mixed $content
-     *
-     * @return $this
-     */
-    public function setContent($content);
-
-    /**
      * Add response content
      *
      * @param mixed $content
@@ -37,13 +28,6 @@ interface ResponseInterface
      * @return $this
      */
     public function addContent($content);
-
-    /**
-     * Get response content
-     *
-     * @return mixed
-     */
-    public function getContent();
 
     /**
      * Set status code
