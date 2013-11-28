@@ -75,4 +75,11 @@ interface RequestInterface
      * @return string
      */
     public function getPath();
+
+    /**
+     * Get remote ip address
+     *
+     * @return string
+     */
+    public function getRemoteIp();
 }
