@@ -69,4 +69,11 @@ interface ResponseInterface
      * @return $this
      */
     public function addCookie(CookieInterface $cookie);
+
+    /**
+     * End response
+     *
+     * @return mixed
+     */
+    public function end();
 }
