@@ -28,11 +28,29 @@ interface RequestInterface
     public function getHeaders();
 
     /**
+     * Set headers map
+     *
+     * @param Map $headers
+     *
+     * @return $this
+     */
+    public function setHeaders(Map $headers);
+
+    /**
      * Get uploaded files
      *
      * @return Map
      */
     public function getFiles();
+
+    /**
+     * Set files map
+     *
+     * @param Map $files
+     *
+     * @return $this
+     */
+    public function setFiles(Map $files);
 
     /**
      * Get body variables
@@ -42,11 +60,29 @@ interface RequestInterface
     public function getBodyVariables();
 
     /**
+     * Set body variables
+     *
+     * @param Map $bodyVariables
+     *
+     * @return $this
+     */
+    public function setBodyVariables(Map $bodyVariables);
+
+    /**
      * Get query variables
      *
      * @return Map
      */
     public function getQueryVariables();
+
+    /**
+     * Set query variables
+     *
+     * @param $queryVariables
+     *
+     * @return $this
+     */
+    public function setQueryVariables(Map $queryVariables);
 
     /**
      * Get cookies
@@ -56,11 +92,30 @@ interface RequestInterface
     public function getCookies();
 
     /**
+     *
+     * Set cookies map
+     *
+     * @param Map $cookies
+     *
+     * @return $this
+     */
+    public function setCookies(Map $cookies);
+
+    /**
      * Get http method
      *
      * @return Method
      */
     public function getMethod();
+
+    /**
+     * Set method
+     *
+     * @param Method $method
+     *
+     * @return $this
+     */
+    public function setMethod(Method $method);
 
     /**
      * Get http version
@@ -70,6 +125,15 @@ interface RequestInterface
     public function getHttpVersion();
 
     /**
+     * Set http version
+     *
+     * @param string $httpVersion
+     *
+     * @return $this
+     */
+    public function setHttpVersion($httpVersion);
+
+    /**
      * Get request path
      *
      * @return string
@@ -77,9 +141,27 @@ interface RequestInterface
     public function getPath();
 
     /**
+     * Set path
+     *
+     * @param string $path
+     *
+     * @return $this
+     */
+    public function setPath($path);
+
+    /**
      * Get remote ip address
      *
      * @return string
      */
     public function getRemoteIp();
+
+    /**
+     * Set remote ip address
+     *
+     * @param string $ip
+     *
+     * @return $this
+     */
+    public function setRemoteIp($ip);
 }

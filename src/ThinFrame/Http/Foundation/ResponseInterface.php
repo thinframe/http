@@ -30,6 +30,22 @@ interface ResponseInterface
     public function addContent($content);
 
     /**
+     * Set response content
+     *
+     * @param mixed $content
+     *
+     * @return $this
+     */
+    public function setContent($content);
+
+    /**
+     * Get response content
+     *
+     * @return mixed
+     */
+    public function getContent();
+
+    /**
      * Set status code
      *
      * @param StatusCode $statusCode
@@ -69,6 +85,13 @@ interface ResponseInterface
      * @return $this
      */
     public function addCookie(CookieInterface $cookie);
+
+    /**
+     * Get response cookies
+     *
+     * @return Map
+     */
+    public function getCookies();
 
     /**
      * End response

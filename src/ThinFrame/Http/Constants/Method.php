@@ -17,7 +17,6 @@ use ThinFrame\Foundation\DataTypes\AbstractEnum;
  * @package ThinFrame\Http\Constants
  * @since   0.2
  */
-
 final class Method extends AbstractEnum
 {
     const GET     = 'get';
