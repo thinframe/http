@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * /src/Foundation/AbstractRequest.php
+ *
+ * @copyright 2013 Sorin Badea <sorin.badea91@gmail.com>
+ * @license   MIT license (see the license file in the root directory)
+ */
+
 namespace ThinFrame\Http\Foundation;
 
 use PhpCollection\Map;
@@ -89,6 +97,7 @@ class AbstractRequest implements RequestInterface
     public function setHeaders(Map $headers)
     {
         $this->headers = $headers;
+
         return $this;
     }
 
@@ -112,6 +121,7 @@ class AbstractRequest implements RequestInterface
     public function setFiles(Map $files)
     {
         $this->files = $files;
+
         return $this;
     }
 
@@ -135,6 +145,7 @@ class AbstractRequest implements RequestInterface
     public function setBodyVariables(Map $bodyVariables)
     {
         $this->bodyVariables = $bodyVariables;
+
         return $this;
     }
 
@@ -158,6 +169,7 @@ class AbstractRequest implements RequestInterface
     public function setQueryVariables(Map $queryVariables)
     {
         $this->queryVariables = $queryVariables;
+
         return $this;
     }
 
@@ -182,6 +194,7 @@ class AbstractRequest implements RequestInterface
     public function setCookies(Map $cookies)
     {
         $this->cookies = $cookies;
+
         return $this;
     }
 
@@ -205,6 +218,7 @@ class AbstractRequest implements RequestInterface
     public function setMethod(Method $method)
     {
         $this->method = $method;
+
         return $this;
     }
 
@@ -228,6 +242,7 @@ class AbstractRequest implements RequestInterface
     public function setHttpVersion($httpVersion)
     {
         $this->httpVersion = $httpVersion;
+
         return $this;
     }
 
@@ -251,6 +266,7 @@ class AbstractRequest implements RequestInterface
     public function setPath($path)
     {
         $this->path = $path;
+
         return $this;
     }
 
@@ -274,6 +290,7 @@ class AbstractRequest implements RequestInterface
     public function setRemoteIp($ip)
     {
         $this->remoteIp = $ip;
+
         return $this;
     }
 }

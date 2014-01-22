@@ -1,7 +1,7 @@
 <?php
 
 /**
- * /src/ThinFrame/Http/Utils/BodyParser.php
+ * /src/Utils/BodyParser.php
  *
  * @copyright 2013 Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
@@ -139,6 +139,7 @@ class BodyParser
         $startPosition = strpos($this->headers['Content-Type'], self::BOUNDARY_IDENTIFIER) + strlen(
                 self::BOUNDARY_IDENTIFIER
             );
+
         return substr($this->headers['Content-Type'], $startPosition);
     }
 

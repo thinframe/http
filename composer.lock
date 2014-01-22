@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3c573f34fe0c21f0024cfdd2090ebda8",
+    "hash": "558940a96774a055185fafb5527e702e",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -106,16 +106,16 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "dev-master",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "a807c38edb33c1c527ac0df51c256909f62aa764"
+                "reference": "5d099bcf0393908bf4ad69cc47dafb785d51f7f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/a807c38edb33c1c527ac0df51c256909f62aa764",
-                "reference": "a807c38edb33c1c527ac0df51c256909f62aa764",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/5d099bcf0393908bf4ad69cc47dafb785d51f7f5",
+                "reference": "5d099bcf0393908bf4ad69cc47dafb785d51f7f5",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +151,7 @@
                 "php",
                 "type"
             ],
-            "time": "2013-12-22 19:01:07"
+            "time": "2014-01-09 22:37:17"
         },
         {
             "name": "thinframe/foundation",
@@ -159,12 +159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinframe/foundation.git",
-                "reference": "a6894d4afbcf33f04c7e8c7bde518c02153828ef"
+                "reference": "9185ddd7c9ac915ca98005beb4916f3cc010dce8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thinframe/foundation/zipball/a6894d4afbcf33f04c7e8c7bde518c02153828ef",
-                "reference": "a6894d4afbcf33f04c7e8c7bde518c02153828ef",
+                "url": "https://api.github.com/repos/thinframe/foundation/zipball/9185ddd7c9ac915ca98005beb4916f3cc010dce8",
+                "reference": "9185ddd7c9ac915ca98005beb4916f3cc010dce8",
                 "shasum": ""
             },
             "require": {
@@ -182,8 +182,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "": "src/"
+                "psr-4": {
+                    "ThinFrame\\Foundation\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -204,7 +204,7 @@
                 "foundation",
                 "thinframe"
             ],
-            "time": "2013-12-10 20:40:48"
+            "time": "2014-01-22 18:16:30"
         }
     ],
     "packages-dev": [

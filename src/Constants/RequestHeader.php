@@ -1,7 +1,7 @@
 <?php
 
 /**
- * /src/ThinFrame/Http/Constants/RequestHeader.php
+ * /src/Constants/RequestHeader.php
  *
  * @copyright 2013 Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)

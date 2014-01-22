@@ -1,7 +1,7 @@
 <?php
 
 /**
- * /src/ThinFrame/Http/Utils/BodyParser.php
+ * /src//Utils/BodyParser.php
  *
  * @copyright 2013 Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)

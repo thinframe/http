@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * /src/Foundation/AbstractResponse.php
+ *
+ * @copyright 2013 Sorin Badea <sorin.badea91@gmail.com>
+ * @license   MIT license (see the license file in the root directory)
+ */
+
 namespace ThinFrame\Http\Foundation;
 
 use PhpCollection\Map;
@@ -51,6 +59,7 @@ class AbstractResponse implements ResponseInterface
     public function addContent($content)
     {
         $this->content .= (string)$content;
+
         return $this;
     }
 
@@ -64,6 +73,7 @@ class AbstractResponse implements ResponseInterface
     public function setContent($content)
     {
         $this->content = $content;
+
         return $this;
     }
 
@@ -88,6 +98,7 @@ class AbstractResponse implements ResponseInterface
     public function setStatusCode(StatusCode $statusCode)
     {
         $this->statusCode = $statusCode;
+
         return $this;
     }
 
@@ -111,6 +122,7 @@ class AbstractResponse implements ResponseInterface
     public function setHeaders(Map $headers)
     {
         $this->headers = $headers;
+
         return $this;
     }
 
