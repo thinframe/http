@@ -3,7 +3,7 @@
 /**
  * /src/Constants/Method.php
  *
- * @copyright 2013 Sorin Badea <sorin.badea91@gmail.com>
+ * @author    Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
  */
 
@@ -19,12 +19,12 @@ use ThinFrame\Foundation\DataTypes\AbstractEnum;
  */
 final class Method extends AbstractEnum
 {
-    const GET     = 'get';
-    const HEAD    = 'head';
-    const OPTIONS = 'options';
-    const TRACE   = 'trace';
-    const POST    = 'post';
-    const PUT     = 'put';
-    const DELETE  = 'delete';
-    const PATCH   = 'patch';
+    const GET     = 'GET';
+    const HEAD    = 'HEAD';
+    const OPTIONS = 'OPTIONS';
+    const TRACE   = 'TRACE';
+    const POST    = 'POST';
+    const PUT     = 'PUT';
+    const DELETE  = 'DELETE';
+    const PATCH   = 'PATCH';
 }
