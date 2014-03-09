@@ -1,16 +1,14 @@
 <?php
 
 /**
- * /src//Utils/BodyParser.php
- *
- * @author Sorin Badea <sorin.badea91@gmail.com>
+ * @author    Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
  */
 
 namespace ThinFrame\Http\Util;
 
 /**
- * Class MimeTypeGuesser
+ * MimeTypeGuesser
  *
  * @package  ThinFrame\Http\Utils
  * @since    0.2

@@ -7,7 +7,7 @@ A collection of PHP classes that simplifies the work with the HTTP protocol.
 
 ##Installation
 
-* via Composer: `"thinframe/http":"@stable"`
+* via Composer: `"thinframe/http":"0.3.*"`
 
 
 ##Copyright

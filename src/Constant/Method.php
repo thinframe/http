@@ -1,8 +1,6 @@
 <?php
 
 /**
- * /src/Constants/Method.php
- *
  * @author    Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
  */
@@ -12,7 +10,7 @@ namespace ThinFrame\Http\Constant;
 use ThinFrame\Foundation\DataType\AbstractEnum;
 
 /**
- * Class Method
+ * Method
  *
  * @package ThinFrame\Http\Constants
  * @since   0.2

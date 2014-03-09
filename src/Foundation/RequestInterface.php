@@ -1,9 +1,7 @@
 <?php
 
 /**
- * /src/Foundation/CookieInterface.php
- *
- * @author Sorin Badea <sorin.badea91@gmail.com>
+ * @author    Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
  */
 
@@ -13,7 +11,7 @@ use PhpCollection\Map;
 use ThinFrame\Http\Constant\Method;
 
 /**
- * Class RequestInterface
+ * RequestInterface
  *
  * @package ThinFrame\Http\Foundation
  * @since   0.2
@@ -159,9 +157,9 @@ interface RequestInterface
     /**
      * Set remote ip address
      *
-     * @param string $ip
+     * @param string $ipAddress
      *
      * @return $this
      */
-    public function setRemoteIp($ip);
+    public function setRemoteIp($ipAddress);
 }

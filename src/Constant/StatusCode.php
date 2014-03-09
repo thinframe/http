@@ -1,9 +1,7 @@
 <?php
 
 /**
- * /src/Constants/StatusCode.php
- *
- * @author Sorin Badea <sorin.badea91@gmail.com>
+ * @author    Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
  */
 
@@ -13,7 +11,7 @@ use ThinFrame\Foundation\DataType\AbstractEnum;
 use ThinFrame\Foundation\Exception\InvalidArgumentException;
 
 /**
- * Class StatusCode
+ * StatusCode
  *
  * @package ThinFrame\Http\Constants
  * @since   0.2

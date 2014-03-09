@@ -1,16 +1,14 @@
 <?php
 
 /**
- * /src/Utils/BodyParser.php
- *
- * @author Sorin Badea <sorin.badea91@gmail.com>
+ * @author    Sorin Badea <sorin.badea91@gmail.com>
  * @license   MIT license (see the license file in the root directory)
  */
 
 namespace ThinFrame\Http\Util;
 
 /**
- * Class BodyParser - parse a raw http body
+ * BodyParser - parse a raw http body
  *
  * @package ThinFrame\Http\Utils
  * @since   0.2
@@ -136,9 +134,8 @@ class BodyParser
      */
     private function getBoundaryIdentifier()
     {
-        $startPosition = strpos($this->headers['Content-Type'], self::BOUNDARY_IDENTIFIER) + strlen(
-                self::BOUNDARY_IDENTIFIER
-            );
+        $startPosition = strpos($this->headers['Content-Type'], self::BOUNDARY_IDENTIFIER)
+            + strlen(self::BOUNDARY_IDENTIFIER);
 
         return substr($this->headers['Content-Type'], $startPosition);
     }

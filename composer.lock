@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bf7d43cd1fb07b7191ea3de0645fdcbd",
+    "hash": "8b8322f1bf276d3555d0327042432aee",
     "packages": [
         {
             "name": "danielstjules/stringy",
-            "version": "dev-master",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielstjules/Stringy.git",
-                "reference": "404909ffaa37f4c756817c0b1e459efee62b90a6"
+                "reference": "b990df3c6136509775e03a1f58cb658c5b11b682"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/404909ffaa37f4c756817c0b1e459efee62b90a6",
-                "reference": "404909ffaa37f4c756817c0b1e459efee62b90a6",
+                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/b990df3c6136509775e03a1f58cb658c5b11b682",
+                "reference": "b990df3c6136509775e03a1f58cb658c5b11b682",
                 "shasum": ""
             },
             "require": {
@@ -52,20 +52,20 @@
                 "utility",
                 "utils"
             ],
-            "time": "2014-02-17 16:22:59"
+            "time": "2014-02-13 00:26:15"
         },
         {
             "name": "phpcollection/phpcollection",
-            "version": "dev-master",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-collection.git",
-                "reference": "cad39389bb3134aca06b1b7fad5d3ecf7c3b7d74"
+                "reference": "dbec93115a5ff149b476ee2d4ede3880239a3d77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-collection/zipball/cad39389bb3134aca06b1b7fad5d3ecf7c3b7d74",
-                "reference": "cad39389bb3134aca06b1b7fad5d3ecf7c3b7d74",
+                "url": "https://api.github.com/repos/schmittjoh/php-collection/zipball/dbec93115a5ff149b476ee2d4ede3880239a3d77",
+                "reference": "dbec93115a5ff149b476ee2d4ede3880239a3d77",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
                 "sequence",
                 "set"
             ],
-            "time": "2014-01-26 10:18:52"
+            "time": "2013-12-13 09:27:51"
         },
         {
             "name": "phpoption/phpoption",
@@ -159,21 +159,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinframe/foundation.git",
-                "reference": "c48b0c6e127b6ce0ffd65b4ee5d2e7eaa697ff58"
+                "reference": "48bf25639c672229498ce06ada3e45323f6f2c25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thinframe/foundation/zipball/c48b0c6e127b6ce0ffd65b4ee5d2e7eaa697ff58",
-                "reference": "c48b0c6e127b6ce0ffd65b4ee5d2e7eaa697ff58",
+                "url": "https://api.github.com/repos/thinframe/foundation/zipball/48bf25639c672229498ce06ada3e45323f6f2c25",
+                "reference": "48bf25639c672229498ce06ada3e45323f6f2c25",
                 "shasum": ""
             },
             "require": {
-                "danielstjules/stringy": "@stable",
+                "danielstjules/stringy": "1.4.0",
                 "php": ">=5.4.0",
-                "phpcollection/phpcollection": "@stable"
+                "phpcollection/phpcollection": "0.3.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "@stable"
+                "phpunit/phpunit": "3.7.32"
             },
             "type": "library",
             "extra": {
@@ -205,7 +205,7 @@
                 "foundation",
                 "thinframe"
             ],
-            "time": "2014-02-12 18:02:48"
+            "time": "2014-03-09 16:08:12"
         }
     ],
     "packages-dev": [
