@@ -10,7 +10,7 @@
 namespace ThinFrame\Http\Foundation;
 
 use PhpCollection\Map;
-use ThinFrame\Http\Constants\StatusCode;
+use ThinFrame\Http\Constant\StatusCode;
 
 /**
  * Class ResponseInterface

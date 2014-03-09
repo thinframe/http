@@ -10,7 +10,7 @@
 namespace ThinFrame\Http\Foundation;
 
 use PhpCollection\Map;
-use ThinFrame\Http\Constants\Method;
+use ThinFrame\Http\Constant\Method;
 
 /**
  * Class AbstractRequest

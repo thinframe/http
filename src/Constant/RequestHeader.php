@@ -7,7 +7,7 @@
  * @license   MIT license (see the license file in the root directory)
  */
 
-namespace ThinFrame\Http\Constants;
+namespace ThinFrame\Http\Constant;
 
 /**
  * Class RequestHeader

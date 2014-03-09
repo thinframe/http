@@ -7,10 +7,10 @@
  * @license   MIT license (see the license file in the root directory)
  */
 
-namespace ThinFrame\Http\Constants;
+namespace ThinFrame\Http\Constant;
 
-use ThinFrame\Foundation\DataTypes\AbstractEnum;
-use ThinFrame\Foundation\Exceptions\InvalidArgumentException;
+use ThinFrame\Foundation\DataType\AbstractEnum;
+use ThinFrame\Foundation\Exception\InvalidArgumentException;
 
 /**
  * Class StatusCode
@@ -123,7 +123,7 @@ final class StatusCode extends AbstractEnum
      * @param string $protocol
      *
      * @return string
-     * @throws \ThinFrame\Foundation\Exceptions\InvalidArgumentException
+     * @throws \ThinFrame\Foundation\Exception\InvalidArgumentException
      */
     public static function getMessageFor($statusCode, $protocol = "HTTP/1.1")
     {
